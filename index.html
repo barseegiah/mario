@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Blocks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mario Blocks</h1>
+        <div class="input_container">   
+            <input type="number" id="blockNumber" min="1" max="8" placeholder="Enter a number (1-8)">
+            <button onclick="build(document.getElementById('blockNumber').value)">Build</button>
+        </div>      
+        <div id="blockContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
